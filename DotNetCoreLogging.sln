@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreLogging", "DotNetCoreLogging.csproj", "{CD1BE32B-5B92-7AB9-95D9-DE6C049C4DDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD1BE32B-5B92-7AB9-95D9-DE6C049C4DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1BE32B-5B92-7AB9-95D9-DE6C049C4DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1BE32B-5B92-7AB9-95D9-DE6C049C4DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1BE32B-5B92-7AB9-95D9-DE6C049C4DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D9B9D20-3D91-412D-8654-0233BE8CB3DA}
+	EndGlobalSection
+EndGlobal
