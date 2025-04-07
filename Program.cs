@@ -1,7 +1,8 @@
 ﻿
 
-using Microsoft.Extensions.Logging;
-using Serilog;
+// using Microsoft.Extensions.Logging;
+using NLog;
+// using Serilog;
 
 
 // using var loggerFactory = LoggerFactory.Create(builder =>
@@ -19,14 +20,20 @@ using Serilog;
 // logger.LogError("Error log..");
 
 
-Log.Logger = new LoggerConfiguration()
-.MinimumLevel.Information()
-.WriteTo.Console()
-.WriteTo.File("log/log.txt", rollingInterval: RollingInterval.Day)
-.CreateLogger();
+// Log.Logger = new LoggerConfiguration()
+// .MinimumLevel.Information()
+// .WriteTo.Console()
+// .WriteTo.File("log/log.txt", rollingInterval: RollingInterval.Day)
+// .CreateLogger();
 
-Log.Information("Serilog info");
-Log.Warning("Serilog warning");
-Log.Error("Serilog error");
+// Log.Information("Serilog info");
+// Log.Warning("Serilog warning");
+// Log.Error("Serilog error");
 
-Log.CloseAndFlush();
+// Log.CloseAndFlush();
+
+
+Logger logger = LogManager.GetCurrentClassLogger();
+logger.Info("NLog Info");
+logger.Warn("NLog Warning");
+logger.Error("NLog Error");
